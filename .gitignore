@@ -1,11 +1,27 @@
-.env
-.venv
-venv
-__pycache__
-*.pyc
+# Python
+__pycache__/
+*.py[cod]
 *.pyo
 *.pyd
-*.pyw
-*.pyz
-*.pywz
-*.pyzw
+*.so
+*.egg-info/
+*.env
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+pip-log.txt
+
+# Streamlit and app data
+.streamlit/
+data/hr_docs/
+vector_store/
+
+# VSCode and IDEs
+.vscode/
+.idea/
+
+# OS and misc
+.DS_Store
+Thumbs.db
